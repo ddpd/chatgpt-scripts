@@ -1,6 +1,6 @@
 # ChatGPT Scripts
 
-A small collection of Tampermonkey userscripts for ChatGPT.
+A small open-source collection of userscripts for ChatGPT, compatible with Violentmonkey, Tampermonkey, and other userscript managers like Greasemonkey.
 
 These scripts are focused on reducing friction, improving workflow, and making common actions faster without changing the core ChatGPT experience.
 
@@ -25,7 +25,6 @@ What it does:
 - Clicks the primary confirmation button automatically.
 - Shows a small non-blocking notification instead of leaving a modal on screen.
 - Works on `chatgpt.com` only.
-- Uses no special Tampermonkey permissions.
 
 Best for:
 - Faster continuation after a temporary rate limit.
@@ -55,12 +54,12 @@ Best for:
 
 ## Installation
 
-1. Install Tampermonkey.
+1. Install Violentmonkey, Tampermonkey, or another compatible userscript manager.
 2. Open the raw `.user.js` file from this repository, or use one of the install links above.
-3. Tampermonkey will detect the script automatically.
+3. Your userscript manager will detect the script automatically.
 4. Install it.
 
-You can also paste the contents manually into a new Tampermonkey script.
+You can also paste the contents manually into a new userscript.
 
 ## Auto-update
 
@@ -69,8 +68,9 @@ Each script is prepared for GitHub-hosted updates.
 After publishing:
 - bump `@version`,
 - commit the updated `.user.js` file,
-- Tampermonkey can update from the raw GitHub URL.
+- Tampermonkey or Violentmonkey can update from the raw GitHub URL.
 
 ## Development Notes
-Parts of this project were developed with the assistance of AI tools.
+
+Parts of this project were developed with the assistance of AI tools.  
 All functionality was manually tested before release.

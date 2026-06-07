@@ -2,7 +2,7 @@
 // @name         ChatGPT - Auto Dismiss Rate Limit
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Automatically closes the rate limit modal using a 100% language-agnostic structural fingerprint
+// @description  Automatically replaces the rate limit modal with a less intrusive notification.
 // @author       https://github.com/ddpd/
 // @homepageURL  https://github.com/ddpd/chatgpt-scripts
 // @supportURL   https://github.com/ddpd/chatgpt-scripts/issues
