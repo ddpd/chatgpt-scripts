@@ -70,3 +70,7 @@ After publishing:
 - bump `@version`,
 - commit the updated `.user.js` file,
 - Tampermonkey can update from the raw GitHub URL.
+
+## Development Notes
+Parts of this project were developed with the assistance of AI tools.
+All functionality was manually tested before release.
